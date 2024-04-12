@@ -1,16 +1,13 @@
-package com.example.whatsapp.chats
+package com.example.whatsapp.presentation.chats.chatsadapter
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.whatsapp.calls.model.Call
-import com.example.whatsapp.chats.model.Chat
-import com.example.whatsapp.databinding.ItemCallBinding
 import com.example.whatsapp.databinding.ItemChatBinding
+import com.example.whatsapp.domain.models.chat.Chat
 
 class ChatListAdapter: ListAdapter<Chat, ChatListAdapter.ChatViewHolder>((DiffUtilCallback())) {
 

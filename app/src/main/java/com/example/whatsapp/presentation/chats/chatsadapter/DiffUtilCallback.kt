@@ -1,8 +1,7 @@
-package com.example.whatsapp.chats
+package com.example.whatsapp.presentation.chats.chatsadapter
 
 import androidx.recyclerview.widget.DiffUtil
-import com.example.whatsapp.calls.model.Call
-import com.example.whatsapp.chats.model.Chat
+import com.example.whatsapp.domain.models.chat.Chat
 
 class DiffUtilCallback : DiffUtil.ItemCallback<Chat>() {
     override fun areItemsTheSame(oldItem: Chat, newItem: Chat): Boolean {

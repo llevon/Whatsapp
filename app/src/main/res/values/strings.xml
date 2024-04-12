@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Whatsapp</string>
+    <string-array name="tabs">
+        <item>Chats</item>
+        <item>Calls</item>
+    </string-array>
 </resources>

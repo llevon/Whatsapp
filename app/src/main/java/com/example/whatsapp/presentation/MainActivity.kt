@@ -1,4 +1,4 @@
-package com.example.whatsapp
+package com.example.whatsapp.presentation
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
